@@ -1,0 +1,15 @@
+nav{
+    display:flex;
+    border: 2px solid black;
+}
+#logo{
+    border: 2px solid red;
+    flex-shrink: 0;
+    padding: 14px;
+    width: 100px;
+}
+#menu{
+    border: 2px solid blue;
+    flex-grow: 1;
+    padding: 14px;
+}

@@ -1,0 +1,34 @@
+/* span{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border: 2px dotted blueviolet;
+}
+div{
+    border: 2px solid greenyellow;
+    display: inline;
+} */
+
+.container{
+    border: 2px solid red;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* gap: 30px; */
+    /* align-items: end; */
+    align-items: center;
+    /* align-items: start; */
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+.box{
+    border: 2px solid gold;
+    height: 70px;
+    width: 70px;
+    background-color: yellowgreen;
+}

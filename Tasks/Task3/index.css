@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(248, 208, 48);
+}
+#container{
+    height: 510px;
+    width: 380px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 9px  10px  black;
+
+}
+#image{
+    margin-top: 25px;
+}
+#img{
+    border-radius: 12px;
+}
+#learning{
+    text-align: start;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+#button{
+    height: 30px;
+    width: 90px;
+    border: none;
+    background-color: rgb(248, 208, 48);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#publish{
+    text-align: start;
+    margin-left: 32px;
+}
+#title{
+    text-align: start;
+    margin-left: 32px;
+}
+#des{
+    text-align: start;
+    margin-left: 32px;
+    color: #817e7e;
+}
+#profile{
+    text-align: start;
+    margin-left: 32px;
+    display: flex;
+    gap: 10px;
+    font-weight: 800;
+}

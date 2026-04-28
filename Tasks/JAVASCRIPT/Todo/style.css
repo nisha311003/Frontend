@@ -1,0 +1,47 @@
+body{
+    background-color: #dbf2f2;
+}
+#container{
+    width: 400px;
+    margin: 150px auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(252, 232, 217);
+    color: rgb(77, 4, 4);
+}
+input{
+    width: 70%;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid grey
+
+}
+button{
+    padding: 6px 16px;
+    background-color: rgb(3, 72, 15);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+ul{
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+li{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236, 206, 159);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+
+}

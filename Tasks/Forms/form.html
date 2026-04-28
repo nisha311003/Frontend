@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+    <label  for="name">Name: </label>
+    <input name="username" id="name" type="text" placeholder="Enter name" maxlength="10" minlength="5" required>
+    <br> <br>
+
+    <label for="email">Email: </label>
+    <input name="email" id="email" type="email" placeholder="Enter email" required>
+    <br> <br>
+
+    <label for="password">Password: </label>
+    <input name="password" id="password" type="password" placeholder="Enter password" required>
+    <br> <br>
+
+    <label for="age">Age: </label>
+    <input name="age" id="age" type="number" placeholder="Enter Age" min="1" max="35" required>
+    <br> <br>
+
+    <label for="dob">Date of Birth: </label>
+    <input name="dob" id="dob" type="date" min="2000-01-01" max="2025-03-01" required>
+    <br> <br>
+
+    <label for="time">Preferred Time: </label>
+    <input name="time" id="time" type="time">
+    <br> <br>
+
+    <label for="file">Upload Resume: </label>
+    <input name="file" id="file" type="file" multiple>
+    <br> <br>
+
+    <label for="experience">Experience: </label>
+    <input name="exp" id="experience" type="range">
+    <br> <br>
+
+    <label>Gender: </label>
+    <input name="gender" value="male" type="radio">male 
+    <input name="gender" value="female" type="radio">female
+    <input name="gender" value="other" type="radio">other
+    <br> <br>
+
+    <label>Hobbies: </label>
+    <input name="hobbies" value="reading" type="checkbox">Reading
+    <input name="hobbies" value="cycling" type="checkbox">Cycling
+    <input name="hobbies" value="cooking" type="checkbox">Cooking
+    <br> <br>
+
+    <label for="city">City: </label>
+    <select name="city" id="city">
+        <option value="">select</option>
+        <option value="patna">Patna</option>
+        <option value="ranchi">Ranchi</option>
+        <option value="rajgir">Rajgir</option>
+    </select>
+    <br> <br>
+
+    <label for="">Location: </label>
+    <input list="Location" type="text">
+    <datalist id="Location">
+    <option value="hanuman_nagar">Hanuman Nagar</option>
+    <option value="bailey_road">Bailey Road</option>
+    <option value="gandhi_maidan">Gandhi Maidan</option>
+    </datalist>
+    <br> <br>
+
+    <label for="country">Country: </label>
+    <input id="country" value="India" readonly>
+    <br><br>
+
+    <label for="referral">Referral Code: </label>
+    <input id="referral" type="text" value="ABC123" disabled>
+    <br><br>
+
+
+    <label for="choice">Choice: </label>
+    <select name="choice" id="choice">
+    <optgroup label="frontend">
+        <option>HTML</option>
+        <option>CSS</option>
+    </optgroup>
+    <optgroup label="backend">
+        <option>Java</option>
+        <option>NodeJs</option>
+    </optgroup>
+    </select>
+    <br><br>
+    <button>Submit</button>
+    </form>
+
+</body>
+</html>

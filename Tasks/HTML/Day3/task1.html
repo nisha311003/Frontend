@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: yellow;
+      }
+      table {
+        width: 100%;
+      }
+      th,
+      td {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <i><strong>🍕Pizza mania🍕</strong></i>
+    </header>
+
+    <fieldset>
+      <legend><h2>🍕Pizza Order Here🍕</h2></legend>
+
+      <form action="">
+        <table cellspacing="10px" cellpadding="10px">
+          <tr>
+            <th><label for="first_name">First Name: </label></th>
+            <td>
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                placeholder="First Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="last_name">Last Name: </label></th>
+            <td>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="Last Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="email">Email: </label></th>
+            <td>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="abc@example.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="contact">Contact: </label></th>
+            <td>
+              <input
+                type="tel"
+                id="contact"
+                name="contact"
+                placeholder="Ex-8989898989"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="date">Preferred Delivery Date: </label></th>
+            <td><input type="date" id="date" name="date" /></td>
+          </tr>
+          <tr>
+            <th><label for="size">Size: </label></th>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="size" value="Small" />Small
+              <input type="radio" name="size" value="Medium" />Medium
+              <input type="radio" name="size" value="Large" />Large
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="outlet"><mark>Outlet:</mark> </label>
+            </th>
+            <td>
+              <select name="outlet" id="outlet">
+                <option value="">Select Outlet</option>
+                <option value="patna">Patna</option>
+                <option value="ranchi">Ranchi</option>
+                <option value="delhi">Delhi</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="menu"
+                ><h3><i>Menu⬇️</i></h3></label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./Hawaiian.png"
+                alt="hawaiian"
+                width="50px"
+                height="50px"
+              />
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                name="menu"
+                value="Hawaiian"
+              />Hawaiian(150.00 ₹ <del>170.00 ₹</del>)
+            </td>
+            <td>
+              <select name="menu" id="Hawaiian">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./Pepperoni.png"
+                alt="pepperoni"
+                width="50px"
+                height="50px"
+              />
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                name="menu"
+                value="Pepperoni"
+              />Pepperoni(140.00 ₹ <del>160.00 ₹</del>)
+            </td>
+            <td>
+              <select name="menu" id="Pepperoni">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./Vegetable.png"
+                alt="vegetable"
+                width="50px"
+                height="50px"
+              />
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                name="menu"
+                value="Vegetable"
+              />Vegetable(130.00 ₹ <del>150.00 ₹</del>)
+            </td>
+            <td>
+              <select name="menu" id="Vegetable">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <h3><i>Extra Details: ⬇️</i></h3>
+            </th>
+          </tr>
+          <tr>
+            <td>💳</td>
+            <th>
+              <label for="card">Credit Card: </label>
+            </th>
+            <td>
+              <input
+                type="number"
+                id="card"
+                name="card"
+                placeholder="1234-5678-9123-1111"
+              />
+            </td>
+            <td>
+              <button type="">Verify Card</button>
+            </td>
+          </tr>
+          <tr>
+            <td>📍</td>
+            <th>
+              <label for="pin">Pin: </label>
+            </th>
+            <td>
+              <input type="number" id="pin" name="pin" placeholder="421604" />
+            </td>
+          </tr>
+          <tr>
+            <td>🌌</td>
+            <th>
+              <label for="photo"
+                ><mark><u>Upload photo for discount:</u></mark>
+              </label>
+            </th>
+            <td>
+              <input type="file" id="photo" name="photo" />
+            </td>
+          </tr>
+          <tr>
+            <td>🧾</td>
+            <th>
+              <label for="note"><mark>Additional Note:</mark> </label>
+            </th>
+            <td>
+              <textarea
+                name="note"
+                id="id"
+                height="100px"
+                width="100px"
+                placeholder="If any additional Requirement There Please Mention Here."
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>⭐</td>
+            <th>
+              <label for="rate"><mark>Rating:</mark> </label>
+            </th>
+            <td>
+              <input type="range" id="rate" name="rate" min="1" max="5" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4" style="text-align: right">
+              <button type="submit">Submit Order</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>

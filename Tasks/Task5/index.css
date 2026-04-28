@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 236, 228);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    width: 90%;
+    max-width: 900px;
+    min-height: 500px;
+    margin: 100px auto;
+    padding: 10px;
+}
+.sidebar{
+    /* background-color: rgb(38, 38, 126); */
+    background-image: url("./sidebar.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 30%;
+    min-width: 250px;
+    border-radius: 12px;
+    color: white;
+}
+.info{
+    padding: 30px;
+    flex-grow: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(2, 2, 61);
+}
+h2{
+    margin-bottom: 8px;
+}
+.info p{
+    color: #a29f9f;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+label{
+    color: rgb(2, 2, 61);
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid #a29f9f;
+    padding-left: 10px;
+}
+button{
+    margin-top: 50px;
+    margin-left: auto;
+    display: block;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(2, 2, 61);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.step1{
+    display: flex;
+    gap: 20px;
+}
+.step2{
+    display: flex;
+    gap: 20px;
+}
+.step3{
+    display: flex;
+    gap: 20px;
+}
+.step4{
+    display: flex;
+    gap: 20px;
+}
+ul{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.l{
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #ccc;
+}
+.shape{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.shape:hover{
+    background-color: lightblue;
+    color: black;
+}
+.l p{
+    margin-bottom: -18px;
+    font-size: 10px;
+}

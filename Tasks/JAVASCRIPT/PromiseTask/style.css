@@ -1,0 +1,43 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+
+}
+nav{
+    height: 30px;
+    background-color: rgb(99, 27, 3);
+    text-align: center;
+    color: rgb(241, 180, 150);
+    padding: 10px 5px 5px;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+
+}
+.container{
+    margin: 20px 30px;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    border: 2px solid rgb(81, 15, 1);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    width: 270px;
+    background-color: rgb(246, 220, 188);
+    font-weight: bold;
+    color: rgb(63, 2, 2);
+    
+}
+.buyNow{
+    background-color: rgb(95, 2, 2);
+    border: none;
+    color: white;
+    padding: 5px 14px;
+    border-radius: 6px;
+}

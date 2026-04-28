@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1::selection{
+            background-color: red;
+            color: white;
+        }
+        p::first-line{
+            color: white;
+            background-color: red;
+        }
+        h2::first-letter{
+            font-size: 40px;
+            color: royalblue;
+        }
+        li::marker{
+            content: "🙃";
+        }
+        #study::marker{
+            content: "📚";
+        }
+        h2::before{
+            content: "⌛";
+        }
+        h2::after{
+            content: "🕑"
+        }
+        input::placeholder{
+            color: purple;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to punjab!!!!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus ducimus possimus, doloribus ullam ab placeat ea nemo officiis facere et perferendis, blanditiis ipsum! Id labore laborum asperiores voluptatem maiores, eveniet alias. Alias, veritatis? Iure ea modi assumenda molestiae temporibus.</p>
+
+    <h2>Once upon a time.....</h2>
+    <ul>
+        <li id="study">Study</li>
+        <li>Mobile</li>
+        <li>Regret</li>
+    </ul>
+    College Name: <input type="text" placeholder="Enter college name">
+</body>
+</html>
