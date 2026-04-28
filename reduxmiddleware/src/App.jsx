@@ -12,7 +12,7 @@ const App = () => {
   }, [dispatch])
   return (
     <div style={{textAlign:"center", backgroundColor:"#f0d8b6", padding:"10px"}}>
-      <h2>Products List</h2>
+      <h2>Products List 📃</h2>
 
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
